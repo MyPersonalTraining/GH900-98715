@@ -43,4 +43,11 @@ public class OrderItemTests
         var item = new OrderItem { Quantity = 3, UnitCost = 10.00m };
         Assert.Equal(30.00m, item.TotalCost);
     }
+
+
+    [Fact]
+    public void sampleTest()
+    {
+        Console.WriteLine("Hello from sampleTest");
+    }
 }
