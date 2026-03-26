@@ -44,7 +44,10 @@ public class OrderItemTests
         Assert.Equal(30.00m, item.TotalCost);
     }
 
-
+    /**
+     * This is a sample test method that can be used as a template for future tests.
+     * It currently just prints a message to the console, but you can replace it with actual test logic.
+     */
     [Fact]
     public void sampleTest()
     {
